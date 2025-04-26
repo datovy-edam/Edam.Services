@@ -5,6 +5,16 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Edam.ServiceDefaults", "Edam.ServiceDefaults\Edam.ServiceDefaults.csproj", "{AE4CED1B-7065-4933-95C4-121F8F7CE0E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Edam.ProjectServices.AppHost", "Edam.ProjectServices\Edam.ProjectServices.AppHost\Edam.ProjectServices.AppHost.csproj", "{838E244A-8C32-4C43-9CAB-EE8414926F14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Edam.ProjectServices.ServiceDefaults", "Edam.ProjectServices\Edam.ProjectServices.ServiceDefaults\Edam.ProjectServices.ServiceDefaults.csproj", "{B2533CE0-F28B-C203-3B3F-A0F0293D7684}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Edam.ProjectServices.ApiService", "Edam.ProjectServices\Edam.ProjectServices.ApiService\Edam.ProjectServices.ApiService.csproj", "{E26E294D-1839-2FB8-3457-3C509EBFB923}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Edam.ProjectServices.Web", "Edam.ProjectServices\Edam.ProjectServices.Web\Edam.ProjectServices.Web.csproj", "{B11A0DED-EEAA-155D-666C-5331DF34DE02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Edam.ProjectServices.Tests", "Edam.ProjectServices\Edam.ProjectServices.Tests\Edam.ProjectServices.Tests.csproj", "{240657C9-A168-AEAB-5E18-D5D300E44220}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,26 @@ Global
 		{AE4CED1B-7065-4933-95C4-121F8F7CE0E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE4CED1B-7065-4933-95C4-121F8F7CE0E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE4CED1B-7065-4933-95C4-121F8F7CE0E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{838E244A-8C32-4C43-9CAB-EE8414926F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{838E244A-8C32-4C43-9CAB-EE8414926F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{838E244A-8C32-4C43-9CAB-EE8414926F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{838E244A-8C32-4C43-9CAB-EE8414926F14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2533CE0-F28B-C203-3B3F-A0F0293D7684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2533CE0-F28B-C203-3B3F-A0F0293D7684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2533CE0-F28B-C203-3B3F-A0F0293D7684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2533CE0-F28B-C203-3B3F-A0F0293D7684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E26E294D-1839-2FB8-3457-3C509EBFB923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E26E294D-1839-2FB8-3457-3C509EBFB923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E26E294D-1839-2FB8-3457-3C509EBFB923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E26E294D-1839-2FB8-3457-3C509EBFB923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B11A0DED-EEAA-155D-666C-5331DF34DE02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B11A0DED-EEAA-155D-666C-5331DF34DE02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B11A0DED-EEAA-155D-666C-5331DF34DE02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B11A0DED-EEAA-155D-666C-5331DF34DE02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{240657C9-A168-AEAB-5E18-D5D300E44220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{240657C9-A168-AEAB-5E18-D5D300E44220}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{240657C9-A168-AEAB-5E18-D5D300E44220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{240657C9-A168-AEAB-5E18-D5D300E44220}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

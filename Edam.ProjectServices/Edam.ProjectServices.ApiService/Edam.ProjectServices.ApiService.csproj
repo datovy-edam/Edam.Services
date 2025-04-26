@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Edam.ServiceDefaults\Edam.ServiceDefaults.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Edam.Data.Assets">
+      <HintPath>..\..\..\Edam.Data.Library\Edam.Data.Assets\bin\Debug\net9.0\Edam.Data.Assets.dll</HintPath>
+    </Reference>
+    <Reference Include="Edam.Data.ReferenceData">
+      <HintPath>..\..\..\Edam.Data.Library\Edam.Data.ReferenceData\bin\Debug\net9.0\Edam.Data.ReferenceData.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
